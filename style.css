@@ -24,6 +24,7 @@ body {
 #header {
 	-webkit-font-smoothing: antialiased;
 	position: relative;
+	background-color: #f2f2f2;
 }
 
 #header .brand {
@@ -51,6 +52,16 @@ body {
 
 #header .main-links.navbar-nav li>a {
 	margin-top: 22px;
+}
+
+#header .navbar-toggle {
+	margin-top: 14px;
+	margin-bottom: 14px;
+	border: 2px solid #2B76B4;
+}
+
+#header .navbar-toggle .icon-bar {
+	border: 1px solid #2B76B4;
 }
 
 /* Main header stuff */
