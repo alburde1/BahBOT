@@ -266,5 +266,13 @@
 			</div>
 		</div>
 	</div>
+
+	<script>
+		window.addEventListener('scroll', function() {
+			var translateDist = $(window).scrollTop()/2;
+			$("#mainHeader").css({webkitTransform:"translate(0,"+translateDist+"px)"});
+			$("#mainHeader .container").css({webkitTransform:"translate(0,"+-translateDist/4+"px)"});
+		});
+	</script>
 </body>
 </html>
