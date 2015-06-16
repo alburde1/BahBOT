@@ -291,6 +291,10 @@ body {
 	color: #2B76B4;
 }
 
+#footer .patrons {
+	padding-bottom: 50px;
+}
+
 #footer .patrons img {
 	width: 100%;
 }
@@ -336,5 +340,9 @@ body {
 		margin-left: 30%;
 		width: 40%;
 		padding-top: 10px;
+	}
+	
+	#footer .patrons {
+		padding-bottom: 0px;
 	}
 }
